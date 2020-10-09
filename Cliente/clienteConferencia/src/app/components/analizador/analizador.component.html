@@ -1,0 +1,16 @@
+<p>analizador works!</p>
+
+<div class="col-md-4 offset-md-2">
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <textarea name="entrada" [(ngModel)]="entradaanalizar.operaciones" placeholder="Entrada a analizar" rows="4" class="form-control"></textarea>
+                </div>
+                <button class="btn btn-success btn-block" (click)="analizaEntrada()">
+                    Analizar
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
